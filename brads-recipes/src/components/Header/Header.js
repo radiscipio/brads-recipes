@@ -9,7 +9,7 @@ function Header() {
           <a href="#">
             <img
               className="reciplease-logo"
-              src="https://res.cloudinary.com/radiscipio/image/upload/v1569344616/e0jwuoi6lo61uqmillj2.png"
+              src="https://res.cloudinary.com/radiscipio/image/upload/v1569344616/rsz7rm5cslwwu5iqwu2o.png"
             />
           </a>
           <h1>ReciPlease</h1>
