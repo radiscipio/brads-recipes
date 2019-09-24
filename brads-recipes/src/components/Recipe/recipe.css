@@ -1,5 +1,20 @@
+button {
+position: absolute;
+bottom: 0;
+right: 0;
+width: 148px;
+height: 50px;
+border-radius: 30px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+border: solid 1px black;
+background-color: #85cc7e;
+font-size: 17px;
+font-weight: bold;
+}
+
 .recipe-card {
   width: 325px;
+  position: relative;
 }
 
 .recipe-card img {
@@ -10,6 +25,7 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+
 .recipe-details {
   width: 50%;
   height: 50%;
@@ -17,6 +33,7 @@
 }
 
 .recipe-details h2 {
+  display: flex;
   margin: 0;
   text-decoration: underline;
   font-size: 28px;
@@ -27,4 +44,9 @@
   margin: 0;
   padding-left: 15px;
   font-size: 24px;
+}
+
+.add-to-cart {
+  height: 50px;
+  width: 50px;
 }
