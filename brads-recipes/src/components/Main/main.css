@@ -33,3 +33,17 @@
   background-color: var(--white);
   border: 1px solid black;
 }
+
+@media (max-width: 750px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-bar {
+    margin: 0;
+    font-size: 20px;
+    width: 90%;
+    padding: 6px 0px 9px 19px;
+  }
+}

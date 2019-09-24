@@ -17,3 +17,24 @@
   border: none;
   border-radius: 1px;
 }
+
+@media (max-width: 750px) {
+  .sidebar-container {
+    display: flex;
+    align-items: center;
+    border: none;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+  }
+
+  .dropdown {
+    margin: 10px auto;
+    width: 150px;
+    padding: 1% 0 0 8%;
+    font-weight: 500;
+  }
+
+  .sort-by {
+    margin-right: 2%;
+  }
+}
