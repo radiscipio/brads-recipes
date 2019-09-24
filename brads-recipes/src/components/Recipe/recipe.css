@@ -49,4 +49,28 @@ font-weight: bold;
 .add-to-cart {
   height: 50px;
   width: 50px;
+
+@media (max-width: 750px) {
+  .recipe-card {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 2% 0;
+    margin: 2% auto;
+  }
+
+  .recipe-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+    margin-right: 4%;
+  }
+
+  .recipe-details h2 {
+    font-size: 1.25rem;
+  }
+
+  .recipe-details p {
+    font-size: 1rem;
+  }
 }
