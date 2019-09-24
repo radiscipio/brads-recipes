@@ -1,8 +1,16 @@
 .logo h1 {
-  font-family: Lobster, cursive;
-  color: #FFFFFF;
-  letter-spacing: 0.5px;
-  text-shadow: -4px 4px 8px rgba(0,0,0,0.25);
+  width: 327px;
+  height: 100px;
+  object-fit: contain;
+  text-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+  font-family: Lobster;
+  font-size: 80px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
 }
 
 .header {
@@ -33,6 +41,24 @@
   height: 41px;
 }
 
+.profile-pic {
+  height: 46px;
+  width: 47px;
+  border-radius: 30px;
+}
+
+.reciplease-logo {
+width: 124px;
+height: 106px;
+object-fit: contain;
+box-shadow: -4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.shopping-cart {
+  height: 57px;
+  width: 69px;
+}
+
 @media (max-width: 750px) {
-  
+
 }
