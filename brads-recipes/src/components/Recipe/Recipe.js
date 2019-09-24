@@ -6,12 +6,14 @@ function Recipe() {
     <div className="recipe-container">
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340787/Blueberry-Pancakes.jpg" />
-        <div>$20</div>
         <div className="recipe-details">
           <h2>Blueberry Pancakes</h2>
           <p>20 Minutes</p>
           <p>6 Ingredients</p>
           <p>10 Servings</p>
+          <div>
+            <button>$20 Add to Cart</button>
+          </div>
         </div>
       </div>
 
@@ -22,50 +24,61 @@ function Recipe() {
           <p>20 Minutes</p>
           <p>6 Ingredients</p>
           <p>3 Servings</p>
+          <div>
+            <button>$20 Add to Cart</button>
+          </div>
         </div>
       </div>
 
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340761/pad-thai.jpg"/>
-        <div>$20</div>
         <div className="recipe-details">
           <h2>Pad Thai</h2>
           <p>40 Minutes</p>
           <p>6 Ingredients</p>
           <p>4 Servings</p>
+          <div>
+            <button>$20 Add to Cart</button>
+          </div>
         </div>
       </div>
 
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340767/lasagna.jpg"/>
-        <div>$20</div>
         <div className="recipe-details">
           <h2>Lasagna</h2>
           <p>60 Minutes</p>
           <p>6 Ingredients</p>
           <p>12 Servings</p>
+          <div>
+            <button>$20 Add to Cart</button>
+          </div>
         </div>
       </div>
 
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340765/seafood-arrabbiata.jpg"/>
-        <div>$20</div>
         <div className="recipe-details">
           <h2>Seafood Arrabbiata</h2>
           <p>35 Minutes</p>
           <p>6 Ingredients</p>
           <p>3 Servings</p>
+          <div>
+            <button>$20 Add to Cart</button>
+          </div>
         </div>
       </div>
 
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340762/penne-alla-vodka.jpg"/>
-        <div>$20</div>
         <div className="recipe-details">
           <h2>Penne alla Vodka</h2>
           <p>20 Minutes</p>
           <p>6 Ingredients</p>
           <p>3 Servings</p>
+          <div>
+            <button>$20 Add to Cart</button>
+          </div>
         </div>
       </div>
     </div>
