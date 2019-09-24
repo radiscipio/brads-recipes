@@ -1,5 +1,6 @@
 .sidebar-container {
   display: flex;
   background-color: rgba(170, 223, 170, 0.12);
+  border-right: 10px solid rgb(154, 228, 167);
   height: 100%;
 }

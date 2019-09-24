@@ -2,12 +2,12 @@
   background-color: white;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto repeat(2, 1fr) auto;
+  grid-template-rows: repeat(2, 1fr) auto;
   grid-gap: 10px;
   grid-template-areas:
     "sidebar search"
+    "sidebar recipe"
     "sidebar recipe";
-    overflow: hidden;
 }
 
 .sidebar-container {
@@ -15,17 +15,11 @@
 }
 
 .recipe-container {
-  grid-area: recipe;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto repeat(3, 1fr) auto;
-  /* grid-gap: 10px; */
-  grid-template-areas:
-    "card card card";
+  display: flex;
 }
 
 .recipe-card {
-  grid-area: card;
+  grid-area: recipe;
 }
 
 .search-bar {
