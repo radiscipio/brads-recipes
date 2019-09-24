@@ -18,15 +18,14 @@
 .recipe-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  grid-gap: 20px;
-  margin: 20px;
+  grid-gap: 10px;
+  margin: 10px;
 }
 
 .search-bar {
-  /* grid-area: search; */
   font-size: 25px;
   padding: 13px 0px 11px 40px;
-  margin: 30px;
+  margin: 40px;
   width: 90%;
   height: 30px;
   border-radius: 30px;
