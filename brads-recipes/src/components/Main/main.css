@@ -1,8 +1,29 @@
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
+} */
+
+.main {
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto repeat(4, 1fr) auto;
+  grid-gap: 10px;
+  grid-template-areas:
+    "sidebar search search search"
+    "sidebar recipe recipe recipe"
+    "sidebar recipe recipe recipe"
+    "sidebar recipe recipe recipe";
 }
 
-@media (max-width: 750px) {
-  
+.sidebar {
+  grid-area: sidebar;
+}
+
+.recipe-container {
+  grid-area: recipe;
+}
+
+.search-bar {
+  grid-area: search;
 }

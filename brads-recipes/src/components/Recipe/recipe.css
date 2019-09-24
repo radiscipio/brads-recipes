@@ -1,4 +1,4 @@
-.recipe-container {
+/* .recipe-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -12,7 +12,23 @@
   height: 248px;
   margin: 3%;
   border: 1px solid black;
+} */
+
+/* .recipe-container {
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto repeat(3, 1fr) auto;
+  grid-gap: 10px;
+  grid-template-areas:
+    "recipe recipe recipe"
+    "recipe recipe recipe"
+    "recipe recipe recipe";
 }
+
+.recipe-card {
+  grid-area: recipe;
+} */
 
 .recipe-card img {
   width: 50%;
