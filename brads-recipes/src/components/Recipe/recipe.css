@@ -6,6 +6,9 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0c577021e769ad1cc1a4e4746655d1773d03bd1
   .recipe-container {
     display: flex;
     justify-content: center;
@@ -23,6 +26,7 @@
     width: 50%;
     height: 50%;
   }
+<<<<<<< HEAD
 =======
 .recipe-card {
   width: 335px;
@@ -34,3 +38,6 @@
   height: 75%;
 }
 >>>>>>> f81581c7023b2d9842d500bb9714b8327315a34b
+=======
+
+>>>>>>> d0c577021e769ad1cc1a4e4746655d1773d03bd1
