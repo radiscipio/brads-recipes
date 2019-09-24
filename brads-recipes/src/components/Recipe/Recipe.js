@@ -12,7 +12,7 @@ function Recipe() {
           <p>6 Ingredients</p>
           <p>10 Servings</p>
           <div>
-            <button>$20 Add to Cart</button>
+            <button>$15 Add to Cart</button>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@ function Recipe() {
           <p>6 Ingredients</p>
           <p>3 Servings</p>
           <div>
-            <button>$20 Add to Cart</button>
+            <button>$18 Add to Cart</button>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ function Recipe() {
           <p>6 Ingredients</p>
           <p>12 Servings</p>
           <div>
-            <button>$20 Add to Cart</button>
+            <button>$25 Add to Cart</button>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ function Recipe() {
           <p>6 Ingredients</p>
           <p>3 Servings</p>
           <div>
-            <button>$20 Add to Cart</button>
+            <button>$30 Add to Cart</button>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ function Recipe() {
           <p>6 Ingredients</p>
           <p>3 Servings</p>
           <div>
-            <button>$20 Add to Cart</button>
+            <button>$14 Add to Cart</button>
           </div>
         </div>
       </div>
