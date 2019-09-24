@@ -14,12 +14,13 @@
 }
 
 .header {
-  background-color: rgb(154, 228, 167)
+  background-color: rgb(154, 228, 167);
 }
 
 .logo {
   display: flex;
   justify-content: space-between;
+  height: 185px;
 }
 
 .sublogo {
@@ -30,6 +31,7 @@
   display: flex;
   justify-content: space-evenly;
   margin: 1% auto;
+
 }
 
 .nav a {
@@ -37,7 +39,7 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
-  width: 93px;
+  font-size: 30px;
   height: 41px;
 }
 
@@ -50,7 +52,6 @@
 .reciplease-logo {
 width: 124px;
 height: 106px;
-object-fit: contain;
 box-shadow: -4px 4px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
