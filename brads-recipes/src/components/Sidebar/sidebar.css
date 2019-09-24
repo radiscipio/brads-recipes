@@ -3,6 +3,7 @@
   flex-direction: column;
   align-content: center;
   background-color: rgba(170, 223, 170, 0.12);
+  border-right: 10px solid rgb(154, 228, 167);
   height: 100%;
   border-right: 10px solid rgb(154, 228, 167);
 }
@@ -13,7 +14,6 @@
   padding: 5%;
   background-color: rgb(253, 215, 172);
   text-transform: uppercase;
-  /* padding: 8px 16px; */
   border: none;
   border-radius: 1px;
 }

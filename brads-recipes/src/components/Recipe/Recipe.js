@@ -17,7 +17,6 @@ function Recipe() {
 
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340763/ajiaco.jpg"/>
-        <div>$20</div>
         <div className="recipe-details">
           <h2>Ajiaco</h2>
           <p>20 Minutes</p>
