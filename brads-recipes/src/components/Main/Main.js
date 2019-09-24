@@ -1,9 +1,11 @@
 import React from 'react';
 
 function Main() {
-  return {
-
-  }
+  return (
+    <div>
+      <h1>This is Main</h1>
+    </div>
+  )
 }
 
 export default Main;

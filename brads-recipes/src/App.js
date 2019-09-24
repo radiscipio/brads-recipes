@@ -1,13 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header.js';
+import Main from './components/Main/Main.js';
+import Recipe from './components/Recipe/Recipe.js';
 
-function App() {
-  return (
-    <div className="App">
-      <div>Brad's Recipes</div>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Main />
+        <Recipe />
+      </div>
+    );
+  }
 }
 
 export default App;
