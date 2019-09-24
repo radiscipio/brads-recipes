@@ -11,6 +11,7 @@
   line-height: normal;
   letter-spacing: normal;
   color: white;
+  padding: 0px 0px 0px 25px;
 }
 
 .header {
@@ -25,13 +26,13 @@
 
 .sublogo {
   display: flex;
+  padding: 25px 45px;
+  align-items: center;
 }
 
 .nav {
   display: flex;
-  justify-content: space-evenly;
-  margin: 1% auto;
-
+  justify-content: center;
 }
 
 .nav a {
@@ -41,12 +42,14 @@
   font-weight: 500;
   font-size: 30px;
   height: 41px;
+  padding: 0px 100px;
 }
 
 .profile-pic {
-  height: 46px;
-  width: 47px;
+  height: 60px;
+  width: 60px;
   border-radius: 30px;
+  margin: 0px 30px 86px 0px;
 }
 
 .reciplease-logo {
@@ -55,8 +58,9 @@ height: 106px;
 }
 
 .shopping-cart {
-  height: 57px;
-  width: 69px;
+  height: 64px;
+  width: 79px;
+  margin: 0px 0px 82px 0px;
 }
 
 @media (max-width: 750px) {
