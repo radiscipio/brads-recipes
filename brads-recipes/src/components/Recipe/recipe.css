@@ -2,13 +2,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 700px;
-}
-
-.recipe-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   width: 1300px;
   border: 1px solid black;
   margin: 0 auto;
