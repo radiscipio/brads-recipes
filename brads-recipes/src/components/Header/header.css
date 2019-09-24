@@ -69,8 +69,7 @@ height: 106px;
 
 @media (max-width: 750px) {
   .header {
-    display: flex;
-    justify-content: space-between;
+    padding: 0 2%;
   }
   .hamburger {
     display: flex;
@@ -111,4 +110,4 @@ height: 106px;
   .logo {
     height: 103px;
   }
-} 
+}

@@ -18,11 +18,6 @@
   grid-area: recipe;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(448px, 1fr));
-  grid-template-areas:
-    "card card card";
-}
-
-.recipe-card {
 }
 
 .search-bar {
@@ -39,5 +34,8 @@
 }
 
 @media (max-width: 750px) {
-
+  .search-bar {
+    padding: 5px 0px 7px 22px;
+    width: 241px;
+  }
 }
