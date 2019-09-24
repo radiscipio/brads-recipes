@@ -1,9 +1,13 @@
 import React from 'react';
+import Sidebar from '../Sidebar/sidebar.js'
+import Recipe from '../Recipe/Recipe.js';
 
 function Main() {
   return (
-    <div>
-      <h1>This is Main</h1>
+    <div className="main">
+      <Sidebar />
+      <input placeholder="main div"></input>
+      <Recipe />
     </div>
   )
 }

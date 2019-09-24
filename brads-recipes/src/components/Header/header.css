@@ -1,3 +1,14 @@
+.logo h1 {
+  font-family: Lobster, cursive;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  text-shadow: -4px 4px 8px rgba(0,0,0,0.25);
+}
+
+.header {
+  background-color: rgb(154, 228, 167)
+}
+
 .logo {
   display: flex;
   justify-content: space-between;
@@ -10,4 +21,14 @@
 .nav {
   display: flex;
   justify-content: space-evenly;
+  margin: 1% auto;
+}
+
+.nav a {
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  width: 93px;
+  height: 41px;
 }
