@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 button {
 position: absolute;
 bottom: 0;
@@ -10,12 +12,14 @@ border: solid 1px black;
 background-color: #85cc7e;
 font-size: 17px;
 font-weight: bold;
+font-family: 'Roboto', sans-serif;
 }
 
 .recipe-card {
   width: 325px;
   position: relative;
   margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .recipe-card img {
@@ -24,6 +28,7 @@ font-weight: bold;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -31,6 +36,7 @@ font-weight: bold;
   width: 50%;
   height: 50%;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
 }
 
 .recipe-details h2 {
@@ -39,12 +45,14 @@ font-weight: bold;
   text-decoration: underline;
   font-size: 28px;
   width: 300px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .recipe-details p {
   margin: 0;
   padding-left: 15px;
   font-size: 24px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .add-to-cart {
@@ -59,6 +67,7 @@ font-weight: bold;
     border-bottom: 1px solid black;
     padding: 2% 0;
     margin: 2% auto;
+    font-family: 'Roboto', sans-serif;
   }
 
   .recipe-card img {
@@ -66,13 +75,16 @@ font-weight: bold;
     height: 150px;
     border-radius: 0;
     margin-right: 4%;
+    font-family: 'Roboto', sans-serif;
   }
 
   .recipe-details h2 {
     font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
   }
 
   .recipe-details p {
     font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
   }
 }
