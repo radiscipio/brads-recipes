@@ -15,6 +15,7 @@ font-weight: bold;
 .recipe-card {
   width: 325px;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .recipe-card img {
