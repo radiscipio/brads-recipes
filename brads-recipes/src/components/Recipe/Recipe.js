@@ -1,11 +1,12 @@
 import React from 'react';
+import './recipe.css';
 
 function Recipe() {
   return (
     <div className="recipe-container">
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340787/Blueberry-Pancakes.jpg" />
-        <div></div>
+        <div>$20</div>
         <div className="recipe-details">
           <h2>Blueberry Pancakes</h2>
           <p>20 Minutes</p>
@@ -27,7 +28,7 @@ function Recipe() {
 
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340761/pad-thai.jpg"/>
-        <div></div>
+        <div>$20</div>
         <div className="recipe-details">
           <h2>Pad Thai</h2>
           <p>40 Minutes</p>
@@ -38,7 +39,7 @@ function Recipe() {
 
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340767/lasagna.jpg"/>
-        <div></div>
+        <div>$20</div>
         <div className="recipe-details">
           <h2>Lasagna</h2>
           <p>60 Minutes</p>
@@ -49,7 +50,7 @@ function Recipe() {
 
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340765/seafood-arrabbiata.jpg"/>
-        <div></div>
+        <div>$20</div>
         <div className="recipe-details">
           <h2>Seafood Arrabbiata</h2>
           <p>35 Minutes</p>
@@ -60,7 +61,7 @@ function Recipe() {
 
       <div className="recipe-card">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1569340762/penne-alla-vodka.jpg"/>
-        <div></div>
+        <div>$20</div>
         <div className="recipe-details">
           <h2>Penne alla Vodka</h2>
           <p>20 Minutes</p>
