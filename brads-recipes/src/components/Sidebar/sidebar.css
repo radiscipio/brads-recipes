@@ -1,11 +1,12 @@
 .sidebar-container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-content: center;
+  align-content: center; */
   background-color: rgba(170, 223, 170, 0.12);
   border-right: 10px solid rgb(154, 228, 167);
   height: 100%;
   border-right: 10px solid rgb(154, 228, 167);
+  /* width: 60%; */
 }
 
 .dropdown {
