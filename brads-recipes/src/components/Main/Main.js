@@ -6,7 +6,7 @@ function Main() {
   return (
     <div className="main">
       <Sidebar />
-      <input placeholder="main div"></input>
+        <input placeholder="main div"></input>
       <Recipe />
     </div>
   )
