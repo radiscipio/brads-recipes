@@ -5,21 +5,24 @@
   width: 700px;
 }
 
-  .recipe-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 1300px;
-  }
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1300px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
 
-  .recipe-card {
-    width: 335px;
-    height: 248px;
-    margin: 3%;
-  }
+.recipe-card {
+  width: 335px;
+  height: 248px;
+  margin: 3%;
+  border: 1px solid black;
+}
 
-  .recipe-card img {
-    width: 50%;
-    height: 50%;
-  }
-
+.recipe-card img {
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+}
