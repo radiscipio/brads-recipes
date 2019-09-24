@@ -7,7 +7,7 @@ function Main() {
   return (
     <div className="main">
       <Sidebar />
-        <input placeholder="main div" className="search-bar"></input>
+        <input placeholder="search me like one of your french foods" className="search-bar" />
       <Recipe />
     </div>
   )
