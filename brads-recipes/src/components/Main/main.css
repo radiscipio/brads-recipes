@@ -2,7 +2,7 @@
   background-color: white;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr) auto;
+  grid-template-rows: auto repeat(2, 1fr);
   grid-gap: 10px;
   grid-template-areas:
     "sidebar search"
@@ -15,11 +15,10 @@
 }
 
 .recipe-container {
-  display: flex;
+  grid-area: recipe;
 }
 
 .recipe-card {
-  grid-area: recipe;
 }
 
 .search-bar {
