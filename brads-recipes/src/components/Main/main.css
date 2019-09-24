@@ -5,6 +5,7 @@
 
 .main {
   border: 1px solid;
+  background-color: white;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto repeat(4, 1fr) auto;
@@ -16,7 +17,7 @@
     "sidebar recipe recipe recipe";
 }
 
-.sidebar {
+.sidebar-container {
   grid-area: sidebar;
 }
 
@@ -26,4 +27,13 @@
 
 .search-bar {
   grid-area: search;
+  font-size: 22px;
+  padding: 15px;
+  width: 1092px;
+  height: 51px;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border: solid 1px var(--black);
+  background-color: var(--white);
+  border: 1px solid black;
 }
