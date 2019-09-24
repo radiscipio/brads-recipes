@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from '../Sidebar/sidebar.js'
 import Recipe from '../Recipe/Recipe.js';
+import './main.css';
 
 function Main() {
   return (
