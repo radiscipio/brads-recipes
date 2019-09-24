@@ -29,7 +29,6 @@ function Header() {
             />
           </a>
         </div>
-
       </div>
       <div className="nav">
         <a href="#">Home</a>
