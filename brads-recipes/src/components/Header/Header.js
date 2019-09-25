@@ -14,7 +14,7 @@ function Header() {
           <a href="#">
             <img
               className="reciplease-logo"
-              src="https://res.cloudinary.com/radiscipio/image/upload/v1569344616/rsz7rm5cslwwu5iqwu2o.png"
+              src="https://res.cloudinary.com/radiscipio/image/upload/v1569374741/bjfly3ue657kxji4hms3.png"
             />
           </a>
           <h1>ReciPlease</h1>
